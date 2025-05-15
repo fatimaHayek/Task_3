@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima's Personal Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Fatima's Personal Page</h1>
+            <p>Hello, my name is Fatima. I study at the Islamic University</p>
+        </section>
+
+        <section>
+            <h2>This is my University website</h2>
+            <iframe src="https://www.iugaza.edu.ps" frameborder="2" width="500px" height="300px">The Islamic University website</iframe>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <div class="form_input">
+                <form action="action.php" method="get">
+                    <label for="user_name">user_name</label>
+                    <input type="text" name="user_name" id="user_name" placeholder="your name" maxlength="10">
+                    <br><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                    <br><br>
+
+                    <input type="submit" value="submit">
+
+                </form>
+            </div>
+        </section>
+        <section>
+            <h2>Take a tour of my university.</h2>
+            <video width="500px" height="300px" controls autoplay muted>
+                <source src="IUG.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fatima's Personal Page</p>
+      </footer>
+
+</body>
+</html>

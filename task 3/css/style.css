@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    background-color: aliceblue;
+    color:#222;
+    margin: 20px ;  
+}
+
+h1, h2 {
+    color: cornflowerblue;
+}
+
+section {
+    background-color:  #ffffff;
+    border: 2px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.form_input{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form_input input[type="text"],input[type="email"]{
+    width: 200px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.form_input input[type="submit"]{
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: darkgrey;
+  }
